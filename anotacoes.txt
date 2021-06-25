@@ -1,0 +1,22 @@
+Biblioteca para retorno dos dados de endereço através do fornecimento de um cep
+
+O site é: https://viacep.com.br/
+link específico de exemplo: viacep.com.br/ws/01001000/json/
+
+Depois do projeto criado, é preciso 'dizer' q ele é um pacote do composer com o comando 'composer init'
+    virão um monte de confirmações como nome do pacote, descrição, autor, minimum stability(deixando em branco, é o padrão 'stable'), tipo de pacote(no caso é biblioteca), licence(no caso é 'MIT')
+
+'vendor' é quem mantém o pacote ou o nome do proprio pacote
+
+depois de gerado, foi definido no composer.json algo dentro do require:
+    "require": {
+        "php": ">=7.2.0"
+    }
+
+quando se cria o pacote no composer, se cria uma pasta chamada 'src' pra abrigar o código fonte
+
+foi criada essa pasta e o arquivo Search.php
+
+no namespace se coloca o nome do vendor/pacote
+
+antes de executar o arquivo, tem q fazer o autoload e fazer o 'composer install'
